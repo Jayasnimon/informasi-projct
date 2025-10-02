@@ -3,11 +3,11 @@ const admin = require("firebase-admin");
 
 // Inisialisasi Firebase Admin SDK
 admin.initializeApp({
-  databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com" // ganti dengan URL DB kamu
+  databaseURL: "https://hostfree-3b81e-default-rtdb.firebaseio.com" // ganti dengan URL DB kamu
 });
 const db = admin.database();
 
-const TOKEN = process.env.TELEGRAM_TOKEN; // isi di Railway Variables
+const TOKEN = process.env.8230690763:AAHPVQK_Q-YC7lUPER1Iwp9VTptShG5-63k; // isi di Railway Variables
 const API = `https://api.telegram.org/bot${TOKEN}`;
 
 async function polling() {
